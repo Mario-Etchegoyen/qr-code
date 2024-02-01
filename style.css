@@ -1,0 +1,95 @@
+@media (max-width: 1440px) {
+  body {
+    margin: 10dvh ;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .fondo-tarjeta {
+    margin: 1% auto ;
+    background-color: hsl(0, 0%, 100%);
+    width: 22%;
+    min-width: 15rem;
+    border-radius: 15px;
+    font-family: outfit;
+    height: 75dvh;  
+    box-shadow: 0 0.5rem hsl(220, 15%, 55%);
+    text-align: center;
+
+  }
+
+  img {
+    margin: 5% 1%;
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  p {
+    margin: 0% 12%;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .segundo-parrafo {
+    margin: 1.2dvh;
+    font-weight:lighter;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+  
+  }
+}
+
+
+
+
+
+
+@media (max-width: 375px) {
+  body {
+    margin: 10dvh auto;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .fondo-tarjeta {
+    background-color: hsl(0, 0%, 100%);
+    width: 80%;
+    height: 75dvh;
+    padding: 0.5%;
+    border-radius: 15px;
+    font-family: outfit;
+    min-height: 70dvh;
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin: 15px;
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  p {
+    margin: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .segundo-parrafo {
+    margin: 3dvh;
+    font-weight: normal;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+  }
+
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
